@@ -1,32 +1,7 @@
-<!doctype html>
-<html lang="en">
+{% extends "_main.jinja" %}
 
-<head>
-    <title> Tommyho kingdom lmao </title>
-    <link rel="stylesheet" type="text/css" href={{url_for("static", filename="css/main.css")}}>
-</head>
+{% block title %} Welcome boi {% endblock %}
 
-<body>
-<header>
-    <h1> Tommy Herout </h1>
-</header>
-
-<nav>
-    <ul class=nav>
-      <li> <a href="#">About</a> </li>
-      <li> <a href="#">Articles</a> </li>
-      <li> <a href="#">Admin</a> </li>
-    </ul>
-</nav>
-
-<main>
-    Učím se pracovat ve frameworku :-).  
-</main>
-
-<footer>
-    <p>
-        (c) 2020 Tommy Herout
-    </p>
-</footer>
-</body>
-</html>
+{% block main %}
+Sem teď vypíšu nějaký random text aby se to ukázalo na obrazovce, a vypadalo to, že tam něco je. Jinak fakt nevím, jak zjistit jednoduše, jestli ten text je na středu obrazovky lol.
+{% endblock %}
