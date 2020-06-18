@@ -15,6 +15,7 @@ flask_app = Flask(__name__)
 
 flask_app.config.from_pyfile("/vagrant/configs/default.py")
 
+
 if "MDBLOG_CONFIG" in os.environ:
     flask_app.config.from_envvar("MDBLOG_CONFIG")
 
