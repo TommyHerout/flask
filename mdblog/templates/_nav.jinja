@@ -6,7 +6,7 @@
       {% if "logged" in session %}
         <li>
             <form action="{{ url_for("logout_user") }}" method="post">
-                <input type = "submit" value="logout">
+                <input type="submit" value="logout">
             </form>
         </li>
       {% endif %}
